@@ -47,6 +47,13 @@ export class Http {
     Object.assign(this.instance.defaults.headers, headers);
   }
 
+  get(url) {
+    return this.request({
+      url,
+      method: "GET",
+    });
+  }
+
   request(config) {
     return new Promise((resolve, reject) => {
       this.instance

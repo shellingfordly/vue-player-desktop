@@ -29,9 +29,11 @@
     "querystring": "^0.2.1",
     "request": "^2.88.2",
     "safe-decode-uri-component": "^1.2.1",
+    "swiper": "^7.4.1",
     "tunnel": "^0.0.6",
     "url": "^0.11.0",
-    "vue": "^3.2.26"
+    "vue": "^3.2.26",
+    "vue-router": "4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -46,6 +48,7 @@
     "less": "^4.1.2",
     "less-loader": "^5.0.0",
     "style-resources-loader": "^1.4.1",
+    "svg-sprite-loader": "^6.0.11",
     "vue-cli-plugin-electron-builder": "~2.1.1",
     "vue-cli-plugin-style-resources-loader": "~0.1.5"
   },
